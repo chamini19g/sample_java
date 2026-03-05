@@ -1,0 +1,17 @@
+nnode{
+    stage('git clone'){
+        git 'https://github.com/chamini19g/sample_java.git'
+    }
+    stage('Execute java'){
+        bat '''javac Test.java
+        java Test.java'''
+    }
+}ode{
+    stage('git clone'){
+        git 'https://github.com/chamini19g/sample_java.git'
+    }
+    stage('Execute java'){
+        bat '''javac Test.java
+        java Test.java'''
+    }
+}
